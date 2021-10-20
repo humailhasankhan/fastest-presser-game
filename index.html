@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Chivo:900i|Muli|Titillium+Web"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Fastest Presser Game</title>
+  </head>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <section id="input-container">
+        <div>
+          <input
+            type="number"
+            class="input-group input-group-lg"
+            id="timer"
+            min="1"
+          />
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary btn-lg" id="start-btn">
+            Start Game
+          </button>
+        </div>
+      </section>
+      <section class="container" id="players">
+        <div id="player-s">
+          <h3 class="player-title">Player 1</h3>
+          <span id="span-s"></span>
+          <p id="winner-one"></p>
+        </div>
+
+        <div id="player-l">
+          <h3 class="player-title">Player 2</h3>
+          <span id="span-l"></span>
+          <p id="winner-two"></p>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

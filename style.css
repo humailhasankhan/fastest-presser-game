@@ -1,0 +1,31 @@
+.content {
+  align-items: center;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+#timer {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+#player-s,
+#player-l {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  border: black 2px solid;
+}
